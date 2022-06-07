@@ -1,4 +1,4 @@
-1. # noteDocsify
+ # noteDocsify
 
    #### 介绍
 
