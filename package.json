@@ -1,0 +1,22 @@
+{
+  "name": "noteDocsify",
+  "version": "1.0.0",
+  "description": "用于展示学习笔记的docsify服务",
+  "main": "index.js",
+  "directories": {
+    "doc": "docsify serve docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/fjwgitee/note-docsify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
