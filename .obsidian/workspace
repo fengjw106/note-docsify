@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "012cd3f5fccbd0c4",
+        "id": "1b0b9dd94712458f",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,10 +82,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "012cd3f5fccbd0c4",
+  "active": "1b0b9dd94712458f",
   "lastOpenFiles": [
     "docs/rabbitmq/rabbitmq.md",
-    "docs/rabbitmq/images/Pasted image 20220608200957.png",
+    "docs/rabbitmq/images/20220608200957.png",
     "Pasted image 20220608200747.png"
   ]
 }
