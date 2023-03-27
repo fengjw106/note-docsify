@@ -1,4 +1,3 @@
-## 本资源由 itjc8.com 收集
 # CSS高级技巧
 
 **目标**
@@ -34,7 +33,7 @@
 
 - 特点： 隐藏之后，不再保留位置。
 
-<img src='./media/29none.png'>
+![29none.png](image\29none.png)
 
 实际开发场景：
 
@@ -52,7 +51,7 @@
 
 - 特点： 隐藏之后，继续保留原有位置。（停职留薪）
 
-<img src='./media/30visibility.png'>
+![30visibility.png](image\30visibility.png)
 
 ### 1.3 overflow 溢出(重点)
 
@@ -66,7 +65,7 @@
 | **scroll**  | 不管超出内容否，总是显示滚动条             |
 | **auto**    | 超出自动显示滚动条，不超出不显示滚动条     |
 
- <img src='./media/33overflow.png'>
+ ![33overflow.png](image\33overflow.png)
 
 实际开发场景：
 
@@ -112,7 +111,7 @@
 
 ### 2.2 轮廓线 outline
 
-<img src='./media/outline.png'>
+![outline.png](image\outline.png)
 
  是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。 
 
@@ -130,7 +129,7 @@
 
 ### 2.3 防止拖拽文本域resize
 
-<img src='./media/34textarea.png'>
+![34textarea.png](image\34textarea.png)
 
 实际开发中，我们文本域右下角是不可以拖拽： 
 
@@ -154,7 +153,7 @@
 
 vertical-align 垂直对齐，它只针对于**行内元素**或者**行内块元素**，
 
-<img src="media/xian.jpg" />
+![xian.jpg](image\xian.jpg)
 
 ```css
 vertical-align : baseline |top |middle |bottom 
@@ -172,13 +171,13 @@ vertical-align : baseline |top |middle |bottom
 
 所以我们知道，我们可以通过vertical-align 控制图片和文字的垂直关系了。 默认的图片会和文字基线对齐。
 
- <img src='./media/基线对齐.jpg'>
+![基线对齐.jpg](image\基线对齐.jpg)
 
-![1498467742995](media/1498467742995.png)
+![1498467742995](image/1498467742995.png)
 
 ### 3.2 去除图片底侧空白缝隙
 
-<img src='./media/35vertical.png'>
+![35vertical.png](image\35vertical.png)
 
 - 原因：
 
@@ -188,11 +187,11 @@ vertical-align : baseline |top |middle |bottom
 
 - 解决的方法就是：  
 
-  - 给img vertical-align:middle | top| bottom等等。  让图片不要和基线对齐。<img src="media/1633.png"  width="500"  style="border: 1px dashed #ccc;" />
+  - 给img vertical-align:middle | top| bottom等等。  让图片不要和基线对齐。![1633.png](image\1633.png)
 
     
 
-  - 给img 添加 display：block; 转换为块级元素就不会存在问题了。<img src="media/sina1.png" width="500" style="border: 1px dashed #ccc;"/>
+  - 给img 添加 display：block; 转换为块级元素就不会存在问题了。![sina1.png](image\sina1.png)
 
 ##  4. 溢出的文字省略号显示
 
@@ -220,7 +219,7 @@ text-overflow：ellipsis ； 当对象内文本溢出时显示省略标记（...
 
 一定要首先强制一行内显示，再次和overflow属性  搭配使用
 
-<img src='./media/dot.png'>
+![dot.png](image\dot.png)
 
 ### 4.3 总结三步曲
 
@@ -237,7 +236,7 @@ text-overflow：ellipsis ； 当对象内文本溢出时显示省略标记（...
 
 ###  5.1 为什么需要精灵技术
 
-<img src="media/sss.png" />
+![sss.png](image\sss.png)
 
 图所示为网页的请求原理图，当用户访问一个网站时，需要向服务器发送请求，网页上的每张图像都要经过一次请求才能展现给用户。
 
@@ -253,7 +252,7 @@ text-overflow：ellipsis ； 当对象内文本溢出时显示省略标记（...
 
 CSS 精灵其实是将网页中的一些背景图像整合到一张大图中（精灵图），然而，各个网页元素通常只需要精灵图中不同位置的某个小图，要想精确定位到精灵图中的某个小图。
 
-<img src="media/jds.png"  style="border: 1px dashed #ccc;" />
+![jds.png](image\jds.png)
 
 这样，当用户访问该页面时，只需向服务发送一次请求，网页中的背景图像即可全部展示出来。
 
@@ -289,13 +288,13 @@ CSS 精灵其实是将网页中的一些背景图像整合到一张大图中（�
 
 先来体会下现实中的滑动门,或者你可以叫做推拉门：
 
-<img src="media/h.gif" />
+![h.gif](image\h.gif)
 
 ###  滑动门出现的背景
 
 制作网页时，为了美观，常常需要为网页元素设置特殊形状的背景，比如微信导航栏，有凸起和凹下去的感觉，最大的问题是里面的字数不一样多，咋办？
 
-<img src="media/wxx.jpg" />
+![wxx.jpg](image\wxx.jpg)
 
 为了使各种特殊形状的背景能够自适应元素中文本内容的多少，出现了CSS滑动门技术。它从新的角度构建页面，使各种特殊形状的背景能够自由拉伸滑动，以适应元素内部的文本内容，可用性更强。 最常见于各种导航栏的滑动门。
 
@@ -360,7 +359,7 @@ css样式
 3. 之所以a包含span就是因为 整个导航都是可以点击的。
 
 
-## 7. 拓展@
+## 7. 拓展
 
 ### 7.1 margin负值之美
 
@@ -370,7 +369,7 @@ css样式
 
 #### 2). 压住盒子相邻边框 
 
-<img src="media/margin.png" />
+![margin.png](image\margin.png)
 
 
 
@@ -398,7 +397,7 @@ css样式
 
 一张图， 你就知道 css 三角是怎么来的了, 做法如下：
 
- <img src="media/arr.png" />
+ ![arr.png](image\arr.png)
 
 1. 我们用css 边框可以模拟三角效果
 2. 宽度高度为0

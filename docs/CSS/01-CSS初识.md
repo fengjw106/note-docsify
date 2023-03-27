@@ -1,4 +1,3 @@
-> 第01阶段.前端基础.CSS初识
 # CSS层叠样式表
 
 ## 学习目标
@@ -10,7 +9,7 @@
   - css三种引用方式的书写
   - 通过样式规则给标签添加简单的样式
 
-<img src="media/zong1.jpg" />
+![zong1](image\zong1.jpg)
 
 # 1.HTML的局限性
 
@@ -22,7 +21,7 @@
 
 这个是一个外国比较早的购物网站
 
- <img src="media/640.webp" />
+ ![](image\640.webp)
 
 有些人就忍受不了了，你就不能把自己打扮得漂亮一点吗？
 
@@ -30,7 +29,7 @@ HTML说，我试试...
 
 如果要改变下 高度或者变一个颜色，就需要大量重复操作
 
- <img src="media/css.png" width="400" />
+ ![](image\css.png)
 
 **总结：**
 
@@ -47,7 +46,7 @@ HTML说，我试试...
 
 而且。。。。。 CSS 做的很出色，如果JavaScript是网页的魔法师，那么CSS它是我们网页的美容师，不信，你看:
 
- <img src="media/baby.jpeg" />
+ ![](image\baby.jpeg)
 
 # 3.CSS初识
 
@@ -162,7 +161,7 @@ HTML说，我试试...
 
 **展示**
 
-<img src="media/tihui.png" />
+![tihui](image\tihui.png)
 
 
 
@@ -202,7 +201,7 @@ HTML说，我试试...
 | type | 定义所链接文档的类型，在这里需要指定为“text/CSS”，表示链接的外部文件为CSS样式表。我们都可以省略 |
 | href | 定义所链接外部样式表文件的URL，可以是相对路径，也可以是绝对路径。 |
 
-<img src='./media/10css外链式.jpg'>
+![10css外链式](image\10css外链式.jpg)
 
 ## 4.4 三种样式表总结（位置）
 
@@ -255,7 +254,7 @@ H3{
 
 具体格式如下：                                          
 
-<img src="media/gz.png" />
+![gz](image\gz.png)
 
 **总结：**
 
@@ -264,11 +263,4 @@ H3{
 3. 属性是对指定的对象设置的样式属性，例如字体大小、文本颜色等。
 4. 属性和属性值之间用英文“:”连接。
 5. 多个“键值对”之间用英文“;”进行区分。
-
-
-# @拓展阅读
-
-[CSS的发展史](https://mp.weixin.qq.com/s?__biz=MzAwNTAzMjcxNg%3D%3D&mid=2651424749&idx=1&sn=f58bca144f50bff00ba7d1675cc8b8e7&scene=4)
-
-
 

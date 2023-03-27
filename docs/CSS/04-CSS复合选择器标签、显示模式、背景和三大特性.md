@@ -1,6 +1,4 @@
-# CSS 第二天
-
-今天我们围绕一个 导航栏案例进行学习知识点。
+# CSS复合选择器标签、显示模式、背景和三大特性
 
 今日重点：
 
@@ -59,7 +57,7 @@
 
 
 
-<img src="media/hou.png" />
+![hou.png](image\hou.png)
 
 - 当标签发生嵌套时，内层标签就成为外层标签的后代。
 - 子孙后代都可以这么选择。 或者说，它能选择任何包含在内 的标签。
@@ -79,7 +77,7 @@
 
 
 
-<img src="media/zi1.png" />
+![zi1.png](image\zi1.png)
 
 **pink老师一句话说出他们**
 > 这里的子 指的是 亲儿子  不包含孙子 重孙子之类。
@@ -96,11 +94,11 @@
 
   交集选择器由两个选择器构成，找到的标签必须满足：既有标签一的特点，也有标签二的特点。
 
-<img src="media/jiaoji.png" />
+![jiaoji.png](image\jiaoji.png)
 
 - 语法：
 
-<img src="media/jiao.png" />
+![jiao.png](image\jiao.png)
 
 - 其中第一个为标签选择器，第二个为class选择器，两个选择器之间**不能有空格**，如h3.special。
 
@@ -123,7 +121,7 @@
 
 
 
-<img src="media/bing.png" />
+![bing.png](image\bing.png)
 
 - 任何形式的选择器（包括标签选择器、class类选择器id选择器等），都可以作为并集选择器的一部分。
 
@@ -137,7 +135,7 @@
 通常用于集体声明。  
 ```
 
-<img src="media/hu.gif" />他和他，在一起， 在一起    一起的意思
+![hu.gif](image\hu.gif)他和他，在一起， 在一起    一起的意思
 
 ## 测试题
 
@@ -166,10 +164,12 @@
 
 ## 1.5  链接伪类选择器（重点）
 
- 伪类选择器：
+伪类选择器：
 
- 为了和我们刚才学的类选择器相区别
-类选择器是一个点 比如 .demo {}   
+为了和我们刚才学的类选择器相区别
+
+类选择器是一个点 比如 .demo {}
+
 而我们的伪类 用 2个点 就是 冒号  比如  :link{}    伪娘 
 
 作用：
@@ -248,7 +248,7 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 常见的块元素有<h1>~<h6>、<p>、<div>、<ul>、<ol>、<li>等，其中<div>标签是最典型的块元素。
 ```
 
-<img src="media/12%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0.png">
+![12kuaijiyuansu.png](image\12kuaijiyuansu.png)
 
 - 块级元素的特点
 
@@ -272,7 +272,7 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 常见的行内元素有<a>、<strong>、<b>、<em>、<i>、<del>、<s>、<ins>、<u>、<span>等，其中<span>标签最典型的行内元素。有的地方也成内联元素
 ```
 
-<img src="media/13%E8%A1%8C%E5%86%85%E5%85%83%E7%B4%A0.png">
+![13hangneiyuansu](image\13hangneiyuansu.png)
 
 
 
@@ -286,7 +286,7 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 
 （4）**行内元素只能容纳文本或则其他行内元素。**
 
-  <img src="media/w.jpg" />    注意：
+  ![w.jpg](image\w.jpg) 注意：
 
 - 链接里面不能再放链接。
 - 特殊情况a里面可以放块级元素，但是给a转换一下块级模式最安全。
@@ -299,7 +299,7 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 在行内元素中有几个特殊的标签——<img />、<input />、<td>，可以对它们设置宽高和对齐属性，有些资料可能会称它们为行内块元素。
 ```
 
-<img src="media/14%E8%A1%8C%E5%86%85%E5%9D%97%E5%85%83%E7%B4%A0.png">
+![14hangneikuaiyuansu](image\14hangneikuaiyuansu.png)
 
 - 行内块元素的特点：
 
@@ -340,9 +340,9 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 
 行高的测量方法：
 
- <img src="media/line1.png"  />
+ ![line1.png](image\line1.png)
 
-<img src="media/line2.png"  />
+![line2.png](image\line2.png)
 
 
 
@@ -356,7 +356,7 @@ a:hover {   /* :hover 是链接伪类选择器 鼠标经过 */
 
 行高   =  上距离 +  内容高度  + 下距离 
 
- <img src="media/1.png"  width="700" />
+ ![1.png](image\1.png)
 
 
 
@@ -522,7 +522,7 @@ background: rgba(0, 0, 0, 0.3);
 
 ## 5.1 CSS层叠性
 
-<img src="media/20%E5%B1%82%E5%8F%A0%E6%80%A7.png">
+![20cengdiexing](image\20cengdiexing.png)
 
 - 概念：
 
@@ -539,11 +539,11 @@ background: rgba(0, 0, 0, 0.3);
 CSS层叠性最后的执行口诀：  长江后浪推前浪，前浪死在沙滩上。
 ```
 
- <img src="media/hai.gif"  width="600" height="400" />
+ ![hai.gif](image\hai.gif)
 
 ## 5.2 CSS继承性
 
-<img src="media/21%E7%BB%A7%E6%89%BF%E6%80%A7.png">
+![21jichengxing](image\21jichengxing.png)
 
 - 概念：
 
@@ -561,11 +561,11 @@ CSS层叠性最后的执行口诀：  长江后浪推前浪，前浪死在沙滩
 CSS继承性口诀：  龙生龙，凤生凤，老鼠生的孩子会打洞。
 ```
 
- <img src="media/shu.gif" />
+![shu.gif](image\shu.gif)
 
 ## 5.3 CSS优先级（重点）
 
-<img src="media/22%E4%BC%98%E5%85%88%E7%BA%A7.png">
+![22youxianji](image\22youxianji.png)
 
 - 概念：
 
@@ -606,7 +606,7 @@ CSS继承性口诀：  龙生龙，凤生凤，老鼠生的孩子会打洞。
 - a:hover      -----—>   0,0,1,1
 - .nav a       ------>      0,0,1,1
 
- <img src="media/w.jpg" /> 注意： 
+![w.jpg](image\w.jpg)
 
 1. 数位之间没有进制 比如说： 0,0,0,5 + 0,0,0,5 =0,0,0,10 而不是 0,0, 1, 0， 所以不会存在10个div能赶上一个类选择器的情况。
 
@@ -638,5 +638,5 @@ p {
 
 # 7. 今日总结
 
-<img src="media/day2.png" />
+![day2](image\day2.png)
 

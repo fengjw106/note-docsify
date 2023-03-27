@@ -1,4 +1,3 @@
-## 本资源由 itjc8.com 收集
 # 1. 学成在线页面制作
 
 ### 目标
@@ -90,7 +89,7 @@
 
 结构图如下：
 
-<img src="media/5-1.png" />
+![5-1.png](image\5-1.png)
 
 * 1号是版心盒子header  1200 *  42 的盒子水平居中对齐, 上下给一个margin值就好了。
 * 版心盒子 里面包含 2号盒子 logo
@@ -103,7 +102,7 @@
 
 结构图如下：
 
-<img src="media/5-2.png" />
+![5-2.png](image\5-2.png)
 
 
 
@@ -116,7 +115,7 @@
 
 结构图如下：
 
- <img src="media/5-6.png" />
+ ![5-6.png](image\5-6.png)
 
 * 1号盒子 是  228 * 300 的盒子 右浮动  注意 浮动的元素 不会有外边距塌陷的问题
 * 1号盒子内 分为 上下 两个 子盒子
@@ -127,7 +126,7 @@
 
 结构图如下：
 
-<img src="media/5-3.png" />
+![5-3.png](image\5-3.png)
 
 * **复习点：**  因为里面三个盒子都要垂直居中，我们利用 继承性，给 最大的盒子 一个垂直居中的代码就好了，还记得 那些 样式可以继承吗？？？ font-  line-  text- color
 * 大盒子水平居中 goods  精品 ，注意此处有个盒子阴影
@@ -141,7 +140,7 @@
 
 结构图如下：
 
-<img src="media/5-4.png" />
+![5-4.png](image\5-4.png)
 
 * 1号盒子为最大的盒子 box  版心水平居中对齐
 * 2号盒子为上面部分 box-hd  -- 里面   左侧标题H3 左浮动   右侧 链接 a 右浮动
@@ -153,7 +152,7 @@
 
 结构图如下：
 
-<img src="media/5-5.png" >
+![5-5.png](image\5-5.png)
 
 * 1号盒子通栏大盒子 底部 footer  给高度  底色是白色
 * 2号盒子版心水平居中
@@ -171,17 +170,17 @@ Chrome浏览器不仅可以调试页面、JS、请求、资源、cookie，还可
 
 直接在页面上点击右键，然后选择  “检查”     快捷键    F12  或者   ctrl+shift+i
 
- <img src="media/chrome1.png" />
+ ![chrome1.png](image\chrome1.png)
 
 基本的结构布局是左边html 右边是 css
 
-<img src="media/chrome2.png" />
+![chrome2.png](image\chrome2.png)
 
 ### chrome调试数值
 
 可以鼠标点击后面的数值，  按下键盘  上箭头 是 调大 数值， 下箭头是 调小数值
 
-<img src="media\chrome5.png" />
+![chrome5.png](image\chrome5.png)
 
 
 
@@ -189,7 +188,7 @@ Chrome浏览器不仅可以调试页面、JS、请求、资源、cookie，还可
 
 ### 快速定位css所在行数
 
-<img src="media/chrome6.png" />
+![chrome6.png](image\chrome6.png)
 
 
 
@@ -201,39 +200,38 @@ Chrome浏览器不仅可以调试页面、JS、请求、资源、cookie，还可
 
 用下图所示的黑色箭头，点击我们需要的 html 元素。
 
-<img src="media/chrome3.png" />
+![chrome3.png](image\chrome3.png)
 
 ### 2). css无显示
 
 声明类名和html调用名不一致   或者   css文件引入不对  或者  这个样式的前面 多余了一些符号影响的
 
-<img src="media/chrome4.png" />
+![chrome4.png](image\chrome4.png)
 
 ### 3). html 结构不匹配(重要) 
 
 左侧   展开可以看到html 标签是否匹配
 
- <img src="media/chrome7.png" />
+ ![chrome7.png](image\chrome7.png)
 
 ### 4). 通过颜色判断盒子
 
 蓝色是 盒子的 宽度高度     青色是 内边距     橙色 是外边距   通过这个很方便的看到盒子给的范围
 
- <img src="media/chrome8.png" />
+![chrome8.png](image\chrome8.png)
 
 ### 5）看看你有如下错误吗
 
- <img src="media/5-a.png" />
+![5-a.png](image\5-a.png)
 
- <img src="media/5-b.png" />
+![5-b.png](image\5-b.png)
 
- <img src="media/5-c.png" />
+![5-c.png](image\5-c.png)
 
- <img src="media/5-d.png" />
+![5-d.png](image\5-d.png)
 
+![5-e.png](image\5-e.png)
 
-
- <img src="media/5-e.png" />
 
 
 

@@ -1,16 +1,10 @@
-## 本资源由 itjc8.com 收集
----
-typora-copy-images-to: media
----
-
-> 第01阶段.前端基础.盒子模型
 # 盒子模型（CSS重点）
 
-css学习三大重点： css 盒子模型   、  浮动  、  定位  
+css学习三大重点： css 盒子模型、浮动、定位  
 
 主题思路：
 
-<img src="media/day3.png" />
+![day3](image\day3.png)
 
 目标： 
 
@@ -29,14 +23,14 @@ css学习三大重点： css 盒子模型   、  浮动  、  定位
 
 网页布局中，我们是如何把里面的文字，图片，按照美工给我们的效果图排列的整齐有序呢？
 
-<img src="media/t.png" />
+![t.png](image\t.png)
 
 - 看透网页布局的本质：
   -  首先利用CSS设置好盒子的大小，然后摆放盒子的位置。
   -  最后把网页元素比如文字图片等等，放入盒子里面。
   - 以上两步 就是网页布局的本质
 
- <img src="media/t1.png" />
+ ![t1.png](image\t1.png)
 
 我们明白了，盒子是网页布局的关键点，所以我们更应该弄明白 这个盒子有什么特点。
 
@@ -46,9 +40,9 @@ css学习三大重点： css 盒子模型   、  浮动  、  定位
 
   - 就是把HTML页面中的布局元素看作是一个矩形的盒子，也就是一个盛装内容的容器。
 
-  <img src='./media/盒子模型.png'>
+  ![盒子模型.png](image\盒子模型.png)
 
-   <img src="media/boxs.png"  width="700" />
+   ![boxs.png](image\boxs.png)
 
   **pink老师总结：**
 
@@ -62,11 +56,11 @@ css学习三大重点： css 盒子模型   、  浮动  、  定位
 
 
 
- <img src='./media/标准盒子模型.png'>
+ ![标准盒子模型](image\标准盒子模型.png)
 
 ## 3. 盒子边框（border） 
 
-​	<img src='./media/盒子边框.png'>
+​	![盒子边框.png](image\盒子边框.png)
 
 - 语法：
 
@@ -113,7 +107,7 @@ border : border-width || border-style || border-color
 
 ### 3.3 表格的细线边框
 
- <img src='./media/表格边框.png'>
+ ![表格边框.png](image\表格边框.png)
 
 - 通过表格的`cellspacing="0"`,将单元格与单元格之间的距离设置为0，
 
@@ -145,11 +139,11 @@ border : border-width || border-style || border-color
 </style>
 ~~~
 
- <img src='./media/边框合并.png'>
+ ![边框合并.png](image\边框合并.png)
 
 ## 4. 内边距（padding）
 
- <img src='./media/16内边距.png'>
+ ![16内边距.png](image\16内边距.png)
 
 ### 4.1 内边距：
 
@@ -169,7 +163,7 @@ border : border-width || border-style || border-color
 1. 内容和边框 有了距离，添加了内边距。
 2. 盒子会变大了。
 
- <img src="media/w.jpg"/>**注意：  后面跟几个数值表示的意思是不一样的。**
+ ![w.jpg](image\w.jpg)**注意：  后面跟几个数值表示的意思是不一样的。**
 
 我们分开写有点麻烦，我们可以不可以简写呢？
 
@@ -180,7 +174,7 @@ border : border-width || border-style || border-color
 | 3个值    | padding：上内边距   左右内边距   下内边距；     |
 | 4个值    | padding: 上内边距 右内边距 下内边距 左内边距 ； |
 
-<img src='./media/顺时针.jpg'>
+![顺时针.jpg](image\顺时针.jpg)
 
 **课堂一练：**
 
@@ -194,11 +188,11 @@ border : border-width || border-style || border-color
 
 新浪导航栏的核心就是因为里面的字数不一样多，所以我们不方便给宽度，还是给padding ，撑开盒子的。
 
- <img src="media/al.gif" />
+ ![al.gif](image\al.gif)
 
 ### 4.4 内盒尺寸计算（元素实际大小）
 
-<img src='./media/盒模型大小.png'>
+![盒模型大小.png](image\盒模型大小.png)
 
 - 宽度
 
@@ -214,7 +208,7 @@ border : border-width || border-style || border-color
 
 - 问题
 
-  <img src='./media/31padding问题.png'>
+  ![31padding问题.png](image\31padding问题.png)
 
   会撑大原来的盒子
 
@@ -222,7 +216,7 @@ border : border-width || border-style || border-color
 
   通过给设置了宽高的盒子，减去相应的内边距的值，维持盒子原有的大小
 
-  <img src='./media/32padding问题解决.png'>
+  ![32padding问题解决.png](image\32padding问题解决.png)
 
 
 
@@ -233,7 +227,7 @@ border : border-width || border-style || border-color
 
 - [x] (A) 130
 
-- [x] (B) 135 
+- [ ] (B) 135 
 
 - [ ] (C) 125
 
@@ -276,7 +270,7 @@ h   200 +  100 +  6   =  306
 
 ## 5. 外边距（margin）
 
-<img src='./media/18margin外边距.png'>
+![18margin外边距](image\18margin外边距.png)
 
 ### 5.1 外边距
 
@@ -345,7 +339,7 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 
 ### 5.6 清除元素的默认内外边距(重要)
 
-<img src='./media/19清除内外边距.png'>
+![19清除内外边距.png](image\19清除内外边距.png)
 
 为了更灵活方便地控制网页中的元素，制作网页时，我们需要将元素的默认内外边距清除
 
@@ -372,7 +366,7 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 - 下面的元素有上外边距margin-top，则他们之间的垂直间距不是margin-bottom与margin-top之和
 - **取两个值中的较大者**这种现象被称为相邻块元素垂直外边距的合并（也称外边距塌陷）。
 
- <img src="media/www.png" />
+ ![www.png](image\www.png)
 
 **解决方案：尽量给只给一个盒子添加margin值**。
 
@@ -382,7 +376,7 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 - 父元素的上外边距会与子元素的上外边距发生合并
 - 合并后的外边距为两者中的较大者
 
- <img src="media/n.png" />
+ ![n.png](image\n.png)
 
 **解决方案：**
 
@@ -441,7 +435,7 @@ li { list-style: none; }
 
 ## 9. 今日总结
 
-<img src="media/day3.png" />
+![day3.png](image\day3.png)
 
 # 拓展@
 
@@ -449,7 +443,7 @@ li { list-style: none; }
 
 ## 1.圆角边框(CSS3)
 
-<img src='./media/圆角.png'>
+![圆角.png](image\圆角.png)
 
 - 语法：
 
@@ -465,15 +459,15 @@ border-radius:length;
   border-radius: 50%;
   ~~~
 
- <img src="media/radio.png" />
+ ![radio.png](image\radio.png)
 
-* <img src='./media/圆角.png'>
+* ![圆角.png](image\圆角.png)
 * 以上效果图矩形的圆角， 就不要用 百分比了，因为百分比会是表示高度和宽度的一半。
 * 而我们这里矩形就只用 用 高度的一半就好了。精确单位。
 
 ## 2. 盒子阴影(CSS3)
 
-<img src='./media/阴影.png'>
+![阴影.png](image\阴影.png)
 
 - 语法:
 
@@ -481,7 +475,7 @@ border-radius:length;
 box-shadow:水平阴影 垂直阴影 模糊距离（虚实）  阴影尺寸（影子大小）  阴影颜色  内/外阴影；
 ~~~
 
-![1498467567011](media/1498467567011.png)
+![1498467567011](image/1498467567011.png)
 
 - 前两个属性是必须写的。其余的可以省略。
 - 外阴影 (outset) 是默认的 但是不能写           想要内阴影可以写  inset 

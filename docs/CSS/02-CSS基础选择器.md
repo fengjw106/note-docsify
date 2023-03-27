@@ -1,9 +1,3 @@
-## 本资源由 itjc8.com 收集
----
-typora-copy-images-to: media
----
-
-> 第01阶段.前端基础.CSS基础选择器
 # CSS选择器（重点）
 
  学习目标：
@@ -16,7 +10,7 @@ typora-copy-images-to: media
 
 ## 1. CSS选择器作用（重点）
 
-<img src='./media/ax.png'>
+![ax](image\ax.png)
 
 如上图所以，要把里面的小黄人分为2组，最快的方法怎办？  
 
@@ -100,7 +94,7 @@ h3 {
   - 标签
 
   ~~~
-  <p class='类名'></p>
+  <p class='类名)</p>
   ~~~
 
 - 优点：
@@ -130,7 +124,7 @@ h3 {
 
 **课堂案例：**
 
- <img src='./media/go.png'>
+ ![go](image\go.png)
 
 
 
@@ -173,7 +167,7 @@ h3 {
 
 我们可以给标签指定多个类名，从而达到更多的选择目的。
 
-<img src="media\lei.png" />
+![lei](image\lei.png)
 
 注意：
 
@@ -211,7 +205,7 @@ id选择器使用`#`进行标识，后面紧跟id名
 
 ####  id选择器和类选择器区别
 
- <img src="media\zfb.jpg" />
+![zfb](image\zfb.jpg)
 
 - W3C标准规定，在同一个页面内，不允许有相同名字的id对象出现，但是允许相同名字的class。
   - 类选择器（class） 好比人的名字，  是可以多次重复使用的， 比如  张伟  王伟  李伟  李娜

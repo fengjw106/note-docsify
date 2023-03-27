@@ -1,5 +1,4 @@
-## 本资源由 itjc8.com 收集
-# CSS字体样式属性调试工具
+# CSS字体样式属性及调试工具
 
  目标
 
@@ -29,7 +28,7 @@ p {
   - 相对长度单位比较常用，推荐使用像素单位px，绝对长度单位使用较少。
 
 
-<img src="media/dd.png" />
+![dd](image\dd.png)
 
 **注意：**
 
@@ -54,7 +53,7 @@ p{ font-family:"微软雅黑";}
 p{font-family: Arial,"Microsoft Yahei", "微软雅黑";}
 ~~~
 
-> <img src="media/good.png" />常用技巧：
+> ![good](image\good.png)常用技巧：
 
 ```
 1. 各种字体之间必须使用英文状态下的逗号隔开。
@@ -65,7 +64,7 @@ p{font-family: Arial,"Microsoft Yahei", "微软雅黑";}
 
 ### CSS Unicode字体
 
-<img src="media/shs.png" />
+![shs.png](image\shs.png)
 
 - 为什么使用 Unicode字体
 
@@ -126,7 +125,7 @@ font-style属性用于定义字体风格，如设置斜体、倾斜或正常字�
 | normal | 默认值，浏览器会显示标准的字体样式  font-style: normal; |
 | italic | 浏览器会显示斜体的字体样式。                            |
 
-<img src="media/good.png" />小技巧： 
+![good](image\good.png)小技巧： 
 
 ```
 平时我们很少给文字加斜体，反而喜欢给斜体标签（em，i）改为普通模式。
@@ -262,12 +261,12 @@ text-decoration   通常我们用于给链接修改装饰效果
 - “按F12”或者是 “shift+ctrl+i”   打开 开发者工具。
 - 菜单：   右击网页空白出---检查
 
-<img src='./media/11开发人员工具.jpg'>
+![11开发人员工具.jpg](image\11开发人员工具.jpg)
 
 - 通过开发人员工具小指针工具，查找页面元素
 - 左侧是html页面结构，右侧是css样式
 
-<img src="media/good.png" />小技巧：
+![good](image\good.png)小技巧：
 
 1. ctrl+滚轮 可以 放大开发者工具代码大小。
 2. 左边是HTML元素结构   右边是CSS样式。
@@ -302,12 +301,8 @@ Emmet的前身是Zen coding,它使用缩写,来提高html/css的编写速度。
 
 # 5. 综合案例
 
-<img src="media/css1.png" />
+![css1.png](image\css1.png)
 
 # 6. 今日总结
 
-<img src="media/zong1.jpg" />
-
-# 7. 拓展阅读@
-
-[emment语法](https://www.w3cplus.com/tools/emmet-cheat-sheet.html)
+![zong1.jpg](image\zong1.jpg)
