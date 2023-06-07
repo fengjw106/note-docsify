@@ -353,7 +353,7 @@ MySQL官方对索引的定义为：**索引（INDEX）是帮助MySQL高效获取
 
 **除了数据本身之外，数据库还维护着一个满足特定查找算法的数据结构，这些数据结构以某种方式指向数据，这样就可以在这些数据结构的基础上实现高级查找算法，这种数据结构就是索引。**
 
-![image-20210624171202113](image/image-20210624171202113.png)
+![image-20230602150256362](image/image-20230602150256362.png)
 
 **左边是数据表，一共有两列7条记录， 最左边是数据记录的物理地址。**
 
@@ -438,7 +438,7 @@ ALTER TABLE tabName ADD INDEX indexName(column_list);
 ALTER TABLE tabName ADD FULLTEXT indexName(column_list);
 ```
 
-## 7.3MySQL索引数据结构
+## 7.3.MySQL索引数据结构
 
 索引数据结构：
 
@@ -944,7 +944,7 @@ CREATE INDEX idx_staffs_name_age_pos ON `staffs`(`name`,`age`,`pos`);
 
 ## 10.1.索引失效的情况
 
-- 全值匹配我最爱。
+- 全值匹配。
 - 最佳左前缀法则。
 - 不在索引列上做任何操作（计算、函数、(自动or手动)类型转换），会导致索引失效而转向全表扫描。
 - 索引中范围条件右边的字段会全部失效。
