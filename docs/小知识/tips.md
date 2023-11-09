@@ -275,6 +275,14 @@ Mybatis自动封装到实体类中会出现为什么Integer，数据库也为int
 
 
 
+## mybatist条件if标签判断字符串相等
+
+mybatis 映射文件中，if标签判断字符串相等，两种方式：因为mybatis映射文件，是使用的ognl表达式，所以在判断字符串sex变量是否是字符串Y的时候使用
+
+`<test="sex=='Y'.toString()">`或者`<test = 'sex== "Y"'>`
+
+
+
 # Maven板块
 
 ## 创建maven的Web骨架时非常慢
@@ -370,3 +378,44 @@ git remote add origin xxx
 ![image-20220120091115282](image/image-20220120091115282.png)
 
 可以执行 `git config --system --unset credential.helper` 来重置账户密码。再次git pull 时会需要输入账户密码。但是之后每次都要输入，可以执行`git config --global credential.helper store` 保存密码，再次输入账户密码之后，以后就不再需要输入。
+
+# java板块
+
+## for循环空指针的问题
+
+for循环中，可以是空数组或者空集合，但是不能为空对象。除此之外fori还是先判断再执行，不是先执行再判断。
+
+~~~java
+public class Demo {
+    public static void main(String[] args){
+        List<String> strings = Arrays.asList("a", "b", "c");
+        ArrayList<String> strings1 = new ArrayList<>();
+        ArrayList<String> strings2 = null;
+        for (String string : strings) {
+            System.out.println("打印strings");
+            System.out.println(string);
+        }
+        for (String string : strings1) {
+            System.out.println("打印strings1");
+            System.out.println(string);
+        }
+        //不能为空 NullPointerException
+        // for (String string : strings2) {
+        //     System.out.println("打印strings2");
+        //     System.out.println(string);
+        // }
+        strings1.forEach(System.out::println);
+        //不能为空 NullPointerException
+        // strings2.forEach(System.out::println);
+        // Stream<String> stringStream = strings2.stream().filter("a"::equals);
+        // for (int i = 0; i < strings2.size(); i++) {
+        //     System.out.println(strings2.get(i));
+        // }
+        //for循环是先判断再执行
+        for (int i = 0; i < 3-3; i++) {
+            System.out.println(strings.get(i));
+        }
+    }
+}
+~~~
+
